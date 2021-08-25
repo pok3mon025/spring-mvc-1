@@ -1,13 +1,13 @@
-package hello.servlet;
+package hello.springmvc;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ServletApplication {
+public class SpringmvcApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ServletApplication.class, args);
+		SpringApplication.run(SpringmvcApplication.class, args);
 	}
 
 }
